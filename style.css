@@ -1,0 +1,69 @@
+
+.image1{
+    position: relative;
+    width: 350px;
+    height: 200px; 
+    left: 7%;
+}
+.image2{
+    position: relative;
+    width: 350px;
+    height: 200px; 
+    left: 7%;
+}
+.image3{
+    position: relative;
+    width: 350px;
+    height: 200px; 
+    left: 7%;
+}
+.jumbotron{
+    height: 450;
+    width: 250;
+}
+.under-name{
+    position: absolute;
+    width: 450px;
+    top: 325px;
+    left: 600px;
+}
+.my-picture{
+    position: relative;
+    right: 50px;
+}
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+h3{
+    text-align: center;
+}
+.parts{
+    border: 3px solid gray;
+    border-radius: 15px;
+    margin: 0px;
+}
+.footer{
+    background-color: lightgray;
+}
+.top-bottom{
+    background-color: black;
+}
+.aboutme{
+    font-weight: bold;
+}
+.aboutmetext{
+    font-size: 20px;
+}
+#footer{
+    color: white;
+}
+#social-imgs{
+    width: 110px;
+    height:110px;
+    margin: 1px;
+}
+.emails{
+    color: blue;
+    font-size: 30px;
+}

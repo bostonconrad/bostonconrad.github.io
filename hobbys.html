@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hobbies Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Boston Conrad</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Recipe Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="recipe/recipe.html">Recipe 1 (HTML)</a></li>
+            <li><a href="recipe/recipe2.html">Recipe 2 (HTML+CSS)</a></li>
+            <li><a href="recipe/recipe3.html">Recipe 3 (BS+CSS)</a></li>
+          </ul>
+        </li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="hobbys.html">Hobbies</a></li>
+        <li><a href="academics.html">Academics</a></li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="jumbotron text-center">
+        <h1>My Hobbies</h1>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-6 ">
+          <h1>Computers</h1>
+          <p>I love to build computers and learn about what they can do. I have spent countless hours building PCs and helping my dad build his.</p>
+        </div>
+        <div class="col-md-6">
+          <h1>Travel</h1>
+          <p>I travel with my family at least 3 times a year. We go to a new place every time and experience the life of a normal person in the place traveled to.</p>
+        </div>
+    </div>
+
+    
+
+<div class="container-fluid">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="media/IMG_2416.JPG" alt="Computers" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>My Personal Compuer</h3>
+          <p>In my free time I enjoy building computers with my Dad</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="media/PXL_20240405_072159245.MP_Original.jpg" alt="Baseball-game" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>At A Japanese Baseball Game</h3>
+          <p>I love to travel and one of my favorite things to do is go to baseball games around the world</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="media/PXL_20240330_044542309_Original.jpg" alt="Flower" width="460" height="345">
+        <div class="carousel-caption">
+          <h3>A Metal Working Class</h3>
+          <p>I love to travel and one of the things I did in Japan was make a knife out of Katana Steel</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="row right-block navbar-inverse ">
+    <div class="col-md-4" id="footer">
+       <p>©2025 Boston Conrad IP Holder, LLC. All Rights Reserved. Boston Conrad, the Boston Conrad logo, and other marks are the property of Boston Conrad IP Holder, LLC. All other trademarks are the property of their respective owners.</p>
+    </div>
+    <div class="col-md-4" id="footer">
+      <p class="emails">boston.conrad@gmail.com</p>
+      <p class="emails">bconrad@cps.edu</p>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.instagram.com/boston.conrad"><img class="img-circle" id="social-imgs" src="media/instagram.jpeg"></a>
+    </div>
+  </div>
+</div>
+    
+</div>
+
+</body>
+</html>
