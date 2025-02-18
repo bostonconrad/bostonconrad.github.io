@@ -1,0 +1,115 @@
+.header{
+    color: grey;
+    margin: 30px;
+}
+body{
+    background-color: #e09f3e;
+}
+div{
+    padding: 6px;
+}
+.header{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: darkslategray;
+    color: #fff3b0;
+}
+.nav-bar{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 15px;
+    left: 8px;
+    background-color: white;
+}
+.history{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 15px;
+    left: 8px;
+    background-color: #9E2A2B;
+    color: #fff3b0;
+
+}
+.ingredients-text{
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: darkslategray;
+    color: #fff3b0;
+}
+.ingredient-pic-div{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+.ingredients-image{
+    width: 100%;
+}
+.prep-1-content{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 25px; 
+    background-color: #540b0e;
+    left: 8px;
+    color: #fff3b0;
+}
+.prep-images{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 25px;
+    left: 12px;
+    background-color: white;
+}
+.prep-pic1-div{
+    position: relative;
+    background-color: white;
+    left: 5px
+} 
+.prep-image-1{
+    width: 100%;
+}  
+.prep-pic2-div{
+    position: relative;
+    background-color: white;
+    left: 5px;
+}
+.prep-image-2{
+    width: 100%;
+}
+.prep-steps-text{
+    font-size: 18px;
+}
+.serve-with-image-div{
+    position: relative;
+    left: 15px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+.serve-with-image{
+    width: 95%;
+}
+.tacos-video-div{
+    position: relative;
+    left: 35px;
+    width: 400px;
+    height: 500px;
+}
+.serve-with-content{
+    position: relative;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: darkslategray;
+    color: #fff3b0;
+    left: 12px;
+}
+.serve-with-text{
+    font-size: 28px;
+}
+.footer{
+    position: relative;
+    background-color: #fff3b0;
+    bottom: 0px;
+    height: 35px;
+}

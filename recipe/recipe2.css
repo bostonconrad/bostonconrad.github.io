@@ -1,0 +1,128 @@
+body{
+    background-color: #2274a5; 
+}
+h1{
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #131b23;
+    font-size: 60px;
+    text-align: center;
+}
+.header{
+    position: relative;
+    height: 100px;
+    padding: 0px;
+    background-color: #e7dfc6;
+    border: 1px #e7dfc6;
+    margin-bottom: 0px;
+    z-index: 2;
+    top: 0px;
+    border-radius: 25px;
+}
+
+nav{
+    background-color: #e7dfc6;
+    position: fixed; 
+    width: 1350px;
+    height: 200px;
+    top: 0px;
+    left: 8px;
+    border-radius: 25px;
+}
+aside{
+    background-color: #131b23;
+    position: absolute;
+    right: 8px;
+    top: 190px;
+    height: 87%;
+    width: 325px;
+    border-radius: 25px;
+}
+.link{
+    color: #e7dfc6;
+    text-decoration: none;
+}
+.image-1{
+    position: relative;
+    border-radius: 25px;
+    top: 50px;
+    height: 400px;
+    width: 500px;
+}
+
+
+.image-2{
+    position: relative;
+    border-radius: 25px;
+    top: 50px;
+    height: 400px;
+    width: 500px;
+}
+
+.prep-images{
+    position: absolute;
+    left: 520px;
+    top: 725px;
+    width: 850px;
+}
+.image-3{
+    position:relative;
+    right: 8px;
+    border-radius: 25px;
+    width: 100%;
+}
+.image-4{
+    position: relative;
+    border-radius: 25px;
+    right: 8px;
+    width: 100%;
+}
+.ingredients1{
+    position: relative;
+    border-radius: 25px;
+    background-color: #e7dfc6;
+    top: 40px;
+    height: max-content;
+    width: 460px;
+}
+.ingredients2{
+    position: absolute;
+    border-radius: 25px;
+    background-color: #e7dfc6;
+    top: 40px;
+    height: max-content;
+    width: 460px;
+    right: 350px;
+    top: 585px;
+}
+.prep1{
+    position: absolute;
+    border-radius: 25px;
+    background-color: goldenrod;
+    width: 450px;
+    top: 1025px;
+}
+.footer{
+    position: relative;
+    background-color: #e7dfc6;
+    top: 800px;
+    text-align: center;
+    height: 50px;
+}
+.prep-video{
+    position: relative;
+    top: 800px;
+    height: 500px;
+    width: 500px;
+}
+.video-holder{
+    text-align: center;
+    height: 100%;
+}
+.video-player{
+    height: 100%;
+}
+.text-links{
+    color: white;
+}
